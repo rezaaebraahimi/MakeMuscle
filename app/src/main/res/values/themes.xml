@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MakeMuscle" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#162161</item>
+    </style>
+
+    <style name="Theme.MakeMuscle" parent="Base.Theme.MakeMuscle" />
+</resources>

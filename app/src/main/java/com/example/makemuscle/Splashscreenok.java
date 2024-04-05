@@ -40,6 +40,6 @@ public class Splashscreenok extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),MainActivity.class ));
 
             }
-        },3000);
+        },3750);
     }
 }

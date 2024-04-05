@@ -89,7 +89,21 @@
         <FrameLayout
             android:id="@+id/Adplaceholder"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:background="@drawable/backgroundcrop3"
+            android:layout_height="70dp"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Ads Can be HERE!"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_gravity="center"/>
+
+        </FrameLayout>
+
 
 
     </LinearLayout>
@@ -105,7 +119,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -638,13 +651,7 @@
 
         </LinearLayout>
 
-
     </LinearLayout>
-
-
-
-
-
 
     </ScrollView>
 </LinearLayout>

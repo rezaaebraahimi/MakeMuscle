@@ -7,7 +7,7 @@
     android:layout_height="fill_parent"
     android:background="@drawable/spalshscreenback"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.example.makemuscle.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
@@ -16,7 +16,83 @@
         android:background="#80162161"
         android:textAlignment="center"
         app:title="MakeMuscle"
-        app:titleTextColor="#fff" />
+        app:titleTextColor="#fff"
+        />
+    <LinearLayout
+        android:onClick="food"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dp"
+        android:layout_marginTop="15.0dp"
+        android:background="@drawable/backgroundcrop"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/diet"
+                    android:layout_marginLeft="5.0dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5.0dp"
+                    android:text="Nutrition and Workout Tips"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/Adplaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -36,8 +112,531 @@
             android:layout_height="wrap_content"
             android:layout_margin="10.0dp"
             android:layout_marginTop="15.0dp"
-            android:background=""/>
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
 
+            <LinearLayout
+                android:id="@+id/chestWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Chest Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="45 Minute - once a week"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/chest_fly_2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                    
+                </LinearLayout>
+                
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startChest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#2F74FF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+/>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/shoulderWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Shoulder Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="45 Minute - once a week"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/shoulder_press" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startShoulder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#2F74FF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/backWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Back Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell and Barbell"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="45 Minute - once a week"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lying_row" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startBack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#2F74FF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/btWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Biceps and Triceps"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="45 Minute - once a week"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/curls" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startBt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#2F74FF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/legWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Leg Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="30 Minute - once a week"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/squat" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startLeg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#2F74FF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+
+
+
+        </LinearLayout>
 
 
     </LinearLayout>

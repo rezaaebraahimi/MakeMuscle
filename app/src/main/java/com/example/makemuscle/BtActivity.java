@@ -23,7 +23,7 @@ public class BtActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.declineBicep,R.id.hammerCurls,R.id.preacherCurls,R.id.overheadTriceps,R.id.frenchPress
+                R.id.declineBicep,R.id.hammerCurls,R.id.overheadTriceps,R.id.frenchPress
         };
 
     }

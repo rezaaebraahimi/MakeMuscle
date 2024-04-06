@@ -13,7 +13,6 @@ public class LegListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_leg_list);
 
 
         Intent intent = getIntent();
@@ -27,11 +26,12 @@ public class LegListActivity extends AppCompatActivity {
                 setContentView(R.layout.activity_halfsquat);
                 break;
             case 2:
-                setContentView(R.layout.activity_deadlift);
-                break;
-            case 3:
                 setContentView(R.layout.activity_dumbbelllunges);
                 break;
+            case 3:
+                setContentView(R.layout.activity_deadlift);
+                break;
+
         }
 
 

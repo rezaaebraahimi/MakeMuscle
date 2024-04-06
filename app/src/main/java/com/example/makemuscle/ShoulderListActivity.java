@@ -15,7 +15,6 @@ public class ShoulderListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_shoulder_list);
 
         Intent intent = getIntent();
         buttonValue = intent.getStringExtra("value");

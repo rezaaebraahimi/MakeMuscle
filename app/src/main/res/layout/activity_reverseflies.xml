@@ -16,14 +16,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Incline Chest Fly"
+                android:text="Reverse Flies"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:textSize="24sp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:background="@color/colorPrimary"/>
-
 
             <Button
                 android:id="@+id/time"
@@ -62,11 +61,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="235dp"
                 android:background="#80FFFFFF"
-                android:src="@drawable/chest_fly_2" />
+                android:src="@drawable/reverse_fly" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/inclineChestFly"
+                android:text="@string/reverseFly"
                 android:fontFamily="monospace"
                 android:textSize="20sp"
                 android:textStyle="bold"

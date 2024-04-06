@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@drawable/gymback"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shrugs"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"/>
+
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="265dp"
+                android:layout_height="265dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:text="01:00"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/startSet"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textColor="@color/ic_launcher_background"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:padding="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How To Do"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:background="#80FFFFFF"
+                android:src="@drawable/shrugs" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-Stand upright, feet shoulder width apart, knees slightly bent.\n\n2-Keeping arms straight ‘shrug’ shoulders as high as possible and hold for a count of 3.\n\n3-Relax and repeat.\n\n4-Do not roll shoulders backwards as you shrug up."
+                android:fontFamily="monospace"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

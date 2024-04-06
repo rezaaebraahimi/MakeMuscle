@@ -25,19 +25,18 @@ public class ShoulderListActivity extends AppCompatActivity {
         switch (intValue){
 
             case 1:
-                setContentView(R.layout.activity_declinebicep);
+                setContentView(R.layout.activity_seatshoulderpress);
                 break;
             case 2:
-                setContentView(R.layout.activity_hammercurls);
+                setContentView(R.layout.activity_reverseflies);
                 break;
             case 3:
-                setContentView(R.layout.activity_overheadtriceps);
+                setContentView(R.layout.activity_lateralraises);
                 break;
             case 4:
-                setContentView(R.layout.activity_frenchpress);
+                setContentView(R.layout.activity_frontraises);
                 break;
         }
-
 
     }
 }

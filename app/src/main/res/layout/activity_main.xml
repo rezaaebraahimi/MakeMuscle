@@ -170,7 +170,7 @@
                         android:padding="5.0dp"
                         android:textStyle="bold"
                         android:textSize="18sp"
-                        android:text="Day 2 - 40 Min"
+                        android:text="Day 1 - 30 Min"
                         android:textColor="#76FF03"
                         />
 
@@ -185,7 +185,7 @@
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="fill_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/chest_fly_2" />
+                        android:src="@drawable/chest_muscle" />
 
                 </LinearLayout>
 
@@ -214,103 +214,6 @@
                 android:textStyle="bold"
                 android:textAllCaps="true"
 />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10.0dp"
-            android:layout_marginTop="15.0dp"
-            android:background="@drawable/backgroundcrop"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:id="@+id/shoulderWork"
-                android:layout_width="fill_parent"
-                android:layout_height="150.0dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="horizontal"
-                >
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.0"
-                    android:orientation="vertical"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        android:fontFamily="serif"
-                        android:padding="5.0dp"
-                        android:text="Shoulder Workouts"
-                        android:textColor="#FFEA00"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="monospace"
-                        android:padding="5.0dp"
-                        android:text="Dumbbell Only"
-                        android:textColor="#FFFFFF"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5.0dp"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:text="Day 3 - 45 Min"
-                        android:textColor="#76FF03"
-                        />
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.0">
-                    <pl.droidsonroids.gif.GifImageView
-
-                        android:layout_width="fill_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/shoulder_press" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.0">
-                    <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="10.0dp"
-                        />
-
-                </LinearLayout>
-            </LinearLayout>
-            <Button
-                android:id="@+id/startShoulder"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10.0dp"
-                android:backgroundTint="#46AFFF"
-                android:text="Get Started"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:textColor="#FFFFFF"
-                />
 
         </LinearLayout>
         <LinearLayout
@@ -365,7 +268,7 @@
                         android:padding="5.0dp"
                         android:textStyle="bold"
                         android:textSize="18sp"
-                        android:text="Day 4 - 40 Min"
+                        android:text="Day 2 - 30 Min"
                         android:textColor="#76FF03"
                         />
 
@@ -380,7 +283,7 @@
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="fill_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/lying_row" />
+                        android:src="@drawable/back_muscle" />
 
                 </LinearLayout>
 
@@ -409,6 +312,202 @@
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/shoulderWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Shoulder Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="Day 3 - 30 Min"
+                        android:textColor="#76FF03"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+                    <pl.droidsonroids.gif.GifImageView
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/shoulder_muscle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/startShoulder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#46AFFF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/legWork"
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Leg Workouts"
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Dumbbell Only"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="Day 4 - 25 Min"
+                        android:textColor="#76FF03"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/leg_muscle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/startLeg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:backgroundTint="#46AFFF"
+                android:text="Get Started"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
 
         </LinearLayout>
         <LinearLayout
@@ -463,7 +562,7 @@
                         android:padding="5.0dp"
                         android:textStyle="bold"
                         android:textSize="18sp"
-                        android:text="Day 1 - 45 Min"
+                        android:text="Day 5 - 35 Min"
                         android:textColor="#76FF03"
                         />
 
@@ -478,7 +577,7 @@
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="fill_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/curls" />
+                        android:src="@drawable/bt_muscle" />
 
                 </LinearLayout>
 
@@ -510,105 +609,7 @@
 
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10.0dp"
-            android:layout_marginTop="15.0dp"
-            android:background="@drawable/backgroundcrop"
-            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/legWork"
-                android:layout_width="fill_parent"
-                android:layout_height="150.0dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="horizontal"
-                >
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.0"
-                    android:orientation="vertical"
-                    >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="serif"
-                        android:padding="5.0dp"
-                        android:text="Leg Workouts"
-                        android:textColor="#FFEA00"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="monospace"
-                        android:padding="5.0dp"
-                        android:text="Dumbbell Only"
-                        android:textColor="#FFFFFF"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5.0dp"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:text="Day 5 - 30 Min"
-                        android:textColor="#76FF03"
-                        />
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.0">
-
-                    <pl.droidsonroids.gif.GifImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/squat" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.0">
-
-                    <ImageView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="10.0dp"
-                        />
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-            <Button
-                android:id="@+id/startLeg"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10.0dp"
-                android:backgroundTint="#46AFFF"
-                android:text="Get Started"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                />
-
-
-        </LinearLayout>
 
     </LinearLayout>
 

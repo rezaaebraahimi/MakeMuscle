@@ -34,6 +34,7 @@ public class BtActivity extends AppCompatActivity {
                 int value = i+1;
                 Log.i("FIRST",String.valueOf(value));
                 Intent intent = new Intent(BtActivity.this,BtListActivity.class);
+                intent.putExtra("value",String.valueOf(value));
                 startActivity(intent);
             }
 

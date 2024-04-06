@@ -13,7 +13,7 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="#80162161"
+        android:background="#D90F1946"
         android:textAlignment="center"
         app:title="MakeMuscle"
         app:titleTextColor="#fff"

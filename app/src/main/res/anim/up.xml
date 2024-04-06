@@ -3,13 +3,13 @@
 
 
     <translate
-        android:duration="3500"
+        android:duration="2000"
         android:fromXDelta="0%"
         android:fromYDelta="-100%"
         />
 
     <alpha
-        android:duration="3500"
+        android:duration="2000"
         android:fromAlpha="0.1"
         android:toAlpha="1.0"
         />

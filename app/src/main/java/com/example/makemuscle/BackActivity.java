@@ -37,6 +37,7 @@ public class BackActivity extends AppCompatActivity {
                 int value = i+1;
                 Log.i("FIRST",String.valueOf(value));
                 Intent intent = new Intent(BackActivity.this,BackListActivity.class);
+                intent.putExtra("value",String.valueOf(value));
                 startActivity(intent);
             }
 

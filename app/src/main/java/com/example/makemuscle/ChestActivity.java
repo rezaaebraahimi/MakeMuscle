@@ -37,6 +37,7 @@ public class ChestActivity extends AppCompatActivity {
              int value = i+1;
              Log.i("FIRST",String.valueOf(value));
              Intent intent = new Intent(ChestActivity.this,ChestListActivity.class);
+             intent.putExtra("value",String.valueOf(value));
              startActivity(intent);
         }
 

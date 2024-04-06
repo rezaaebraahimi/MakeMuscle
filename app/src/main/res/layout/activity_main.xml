@@ -13,18 +13,19 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="#80162161"
+        android:background="#D90F1946"
         android:textAlignment="center"
         app:title="MakeMuscle"
         app:titleTextColor="#fff"
         />
+
     <LinearLayout
         android:onClick="food"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10.0dp"
         android:layout_marginTop="15.0dp"
-        android:background="@drawable/backgroundcrop"
+        android:background="@drawable/backgroundcrop4"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -51,8 +52,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="5.0dp"
-                    android:text="Nutrition and Workout Tips"
-                    android:textSize="16sp"
+                    android:text="Nutrition &amp; Workout Tips"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textAllCaps="true"
                     android:textColor="#fff"/>
@@ -74,9 +75,6 @@
 
 
         </LinearLayout>
-
-
-
 
 
     </LinearLayout>
@@ -161,7 +159,7 @@
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Dumbbell Only"
-                        android:textColor="#80FFFFFF"
+                        android:textColor="#fff"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         />
@@ -171,9 +169,9 @@
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:text="45 Minute - once a week"
-                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:text="Day 2 - 40 Min"
+                        android:textColor="#76FF03"
                         />
 
                 </LinearLayout>
@@ -200,13 +198,9 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="10.0dp"
-                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
-                    
+                        />
+
                 </LinearLayout>
-                
-
-
-
 
             </LinearLayout>
             <Button
@@ -214,16 +208,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
-                android:backgroundTint="#2F74FF"
+                android:backgroundTint="#46AFFF"
                 android:text="Get Started"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
 />
-
-
-
-
 
         </LinearLayout>
         <LinearLayout
@@ -267,7 +257,7 @@
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Dumbbell Only"
-                        android:textColor="#80FFFFFF"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         />
@@ -277,9 +267,9 @@
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:text="45 Minute - once a week"
-                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:text="Day 3 - 45 Min"
+                        android:textColor="#76FF03"
                         />
 
                 </LinearLayout>
@@ -289,8 +279,8 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2.0">
-
                     <pl.droidsonroids.gif.GifImageView
+
                         android:layout_width="fill_parent"
                         android:layout_height="match_parent"
                         android:src="@drawable/shoulder_press" />
@@ -301,35 +291,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.0">
-
                     <ImageView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="10.0dp"
-                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                        />
 
                 </LinearLayout>
-
-
-
-
-
             </LinearLayout>
             <Button
                 android:id="@+id/startShoulder"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
-                android:backgroundTint="#2F74FF"
+                android:backgroundTint="#46AFFF"
                 android:text="Get Started"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
+                android:textColor="#FFFFFF"
                 />
-
-
-
-
 
         </LinearLayout>
         <LinearLayout
@@ -373,7 +354,7 @@
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Dumbbell and Barbell"
-                        android:textColor="#80FFFFFF"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         />
@@ -383,9 +364,9 @@
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:text="45 Minute - once a week"
-                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:text="Day 4 - 40 Min"
+                        android:textColor="#76FF03"
                         />
 
                 </LinearLayout>
@@ -412,13 +393,9 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="10.0dp"
-                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                        />
 
                 </LinearLayout>
-
-
-
-
 
             </LinearLayout>
             <Button
@@ -426,16 +403,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
-                android:backgroundTint="#2F74FF"
+                android:backgroundTint="#46AFFF"
                 android:text="Get Started"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 />
-
-
-
-
 
         </LinearLayout>
         <LinearLayout
@@ -479,7 +452,7 @@
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Dumbbell Only"
-                        android:textColor="#80FFFFFF"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         />
@@ -489,9 +462,9 @@
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:text="45 Minute - once a week"
-                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:text="Day 1 - 45 Min"
+                        android:textColor="#76FF03"
                         />
 
                 </LinearLayout>
@@ -518,13 +491,9 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="10.0dp"
-                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                        />
 
                 </LinearLayout>
-
-
-
-
 
             </LinearLayout>
             <Button
@@ -532,15 +501,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
-                android:backgroundTint="#2F74FF"
+                android:backgroundTint="#46AFFF"
                 android:text="Get Started"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 />
-
-
-
 
 
         </LinearLayout>
@@ -570,7 +536,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
                         android:fontFamily="serif"
                         android:padding="5.0dp"
                         android:text="Leg Workouts"
@@ -585,7 +550,7 @@
                         android:fontFamily="monospace"
                         android:padding="5.0dp"
                         android:text="Dumbbell Only"
-                        android:textColor="#80FFFFFF"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         />
@@ -595,9 +560,9 @@
                         android:layout_height="wrap_content"
                         android:padding="5.0dp"
                         android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:text="30 Minute - once a week"
-                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:text="Day 5 - 30 Min"
+                        android:textColor="#76FF03"
                         />
 
                 </LinearLayout>
@@ -624,12 +589,9 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="10.0dp"
-                        android:src="@drawable/baseline_arrow_forward_ios_24"/>
+                        />
 
                 </LinearLayout>
-
-
-
 
 
             </LinearLayout>
@@ -638,15 +600,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
-                android:backgroundTint="#2F74FF"
+                android:backgroundTint="#46AFFF"
                 android:text="Get Started"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 />
-
-
-
 
 
         </LinearLayout>

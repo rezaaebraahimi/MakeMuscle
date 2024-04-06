@@ -1,14 +1,17 @@
 package com.example.makemuscle;
 
+import android.content.Intent;
 import android.os.Bundle;
-
+import android.util.Log;
+import android.view.View;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.appcompat.widget.Toolbar;
+
 
 public class BtActivity extends AppCompatActivity {
+
+    int[] newArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,5 +19,27 @@ public class BtActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_bt);
 
+        Toolbar toolbar = findViewById(R.id.toolBar);
+        setSupportActionBar(toolbar);
+
+        newArray = new int[]{
+                R.id.declineBicep,R.id.hammerCurls,R.id.preacherCurls,R.id.overheadTriceps,R.id.frenchPress
+        };
+
     }
+
+    public void Imagebuttonclicked(View view){
+        for (int i=0; i< newArray.length; i++){
+            if (view.getId() == newArray[i]){
+                int value = i+1;
+                Log.i("FIRST",String.valueOf(value));
+                Intent intent = new Intent(BtActivity.this,BtListActivity.class);
+                startActivity(intent);
+            }
+
+        }
+
+    }
+
+
 }

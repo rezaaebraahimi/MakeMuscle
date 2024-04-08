@@ -28,12 +28,14 @@
 </table>
 
 <div align="center">
+
 <h2>Features</h2>
   - Different Training Programs <br>
   - Different Muscle Groups <br>
   - Tips About Nutrition and Diets<br>
-  - Explaining How To Do Workout Movements
+  - Explaining How To Do Workout Movements<br>
   - Do Exercises with Precise Timing<br>
+
 <h2>App Walkthrough</h2>
 
 https://github.com/rezaaebraahimi/MakeMuscle/assets/117990649/6b7e81cd-115c-49ac-9d0a-b18f677bbafe

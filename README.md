@@ -29,8 +29,10 @@
 
 <div align="center">
 <h2>Features</h2>
-  - Different Training Programs for Different Muscle Groups <br>
-  - Teaches Tips About Nutrition and Workouts Movements<br>
+  - Different Training Programs <br>
+  - Different Muscle Groups <br>
+  - Tips About Nutrition and Diets<br>
+  - Explaining How To Do Workout Movements
   - Do Exercises with Precise Timing<br>
 <h2>App Walkthrough</h2>
 

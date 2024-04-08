@@ -32,44 +32,29 @@ public class MainActivity extends AppCompatActivity {
         button5 = findViewById(R.id.startLeg);
 
 
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,ChestActivity.class);
-                startActivity(intent);
-            }
+        button1.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,ChestActivity.class);
+            startActivity(intent);
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,ShoulderActivity.class);
-                startActivity(intent);
-            }
+        button2.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,ShoulderActivity.class);
+            startActivity(intent);
         });
 
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,BackActivity.class);
-                startActivity(intent);
-            }
+        button3.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,BackActivity.class);
+            startActivity(intent);
         });
 
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,BtActivity.class);
-                startActivity(intent);
-            }
+        button4.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,BtActivity.class);
+            startActivity(intent);
         });
 
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,LegActivity.class);
-                startActivity(intent);
-            }
+        button5.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,LegActivity.class);
+            startActivity(intent);
         });
 
 

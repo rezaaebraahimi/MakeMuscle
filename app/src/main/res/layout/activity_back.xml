@@ -69,7 +69,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/armRow"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -157,7 +157,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/uprightRow"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -245,7 +245,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/bentOverRow"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -333,7 +333,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/shrugs"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"

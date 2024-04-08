@@ -28,7 +28,7 @@ public class BtActivity extends AppCompatActivity {
 
     }
 
-    public void Imagebuttonclicked(View view){
+    public void imageButtonClicked(View view){
         for (int i=0; i< newArray.length; i++){
             if (view.getId() == newArray[i]){
                 int value = i+1;

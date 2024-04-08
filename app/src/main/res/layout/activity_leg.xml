@@ -70,7 +70,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/halfSquat"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -158,7 +158,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/dumbbellLunges"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -246,7 +246,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/deadLift"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"

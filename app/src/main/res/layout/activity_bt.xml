@@ -70,7 +70,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/declineBicep"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -158,7 +158,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/hammerCurls"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -246,7 +246,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/overheadTriceps"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -333,7 +333,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="Imagebuttonclicked"
+                    android:onClick="imageButtonClicked"
                     android:id="@+id/frenchPress"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"

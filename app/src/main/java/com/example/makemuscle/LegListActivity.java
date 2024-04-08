@@ -3,7 +3,6 @@ package com.example.makemuscle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -27,7 +26,7 @@ public class LegListActivity extends AppCompatActivity {
         Intent intent = getIntent();
         buttonValue = intent.getStringExtra("value");
 
-        int intValue = Integer.valueOf(buttonValue);
+        int intValue = Integer.parseInt(buttonValue);
 
         switch (intValue){
 
@@ -47,17 +46,14 @@ public class LegListActivity extends AppCompatActivity {
         mtextview = findViewById(R.id.time);
 
 
-        startBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(MTimeRunning){
-                    stoptimer();
+        startBtn.setOnClickListener(v -> {
+            if(MTimeRunning){
+                stoptimer();
 
-                }
-                else {
+            }
+            else {
 
-                    startTimer();
-                }
+                startTimer();
             }
         });
 
@@ -77,8 +73,8 @@ public class LegListActivity extends AppCompatActivity {
         String num2 = num1.substring(0,2);
         String num3 = num1.substring(3,5);
 
-        final int number = Integer.valueOf(num2) * 60+ Integer.valueOf(num3);
-        MTimeLeftinmills = number*1000;
+        final int number = Integer.parseInt(num2) * 60+ Integer.parseInt(num3);
+        MTimeLeftinmills = number*1000L;
 
 
 
@@ -94,7 +90,7 @@ public class LegListActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
 
-                int newvalue = Integer.valueOf(buttonValue)+1;
+                int newvalue = Integer.parseInt(buttonValue)+1;
                 if(newvalue<=7){
 
                     Intent intent = new Intent(LegListActivity.this,LegListActivity.class);

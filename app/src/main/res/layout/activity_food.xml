@@ -1,11 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:background="@drawable/fodback2"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.example.makemuscle.FoodActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#D90F1946"
+        android:textAlignment="center"
+        app:title="MakeMuscle"
+        app:titleTextColor="#fff"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/tip1"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Eat a balanced diet"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tip2"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Set pre-workout goals"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tip3"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Set post-workout goals"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tip4"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Know how to hydrate"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tip6"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Change Exercise Routine"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tip7"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:background="@drawable/backgroundcrop2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Plan Your Runs Ahead of Time"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

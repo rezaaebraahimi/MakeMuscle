@@ -43,7 +43,7 @@ public class ShoulderListActivity extends AppCompatActivity {
 
         startBtn = findViewById(R.id.startSet);
         mtextview = findViewById(R.id.time);
-        timerManager = new TimerManager(mtextview, startBtn,buttonValue);
+        timerManager = new TimerManager(mtextview, startBtn,buttonValue,ShoulderListActivity.this);
 
         startBtn.setOnClickListener(v -> {
             if(timerManager.isRunning()){

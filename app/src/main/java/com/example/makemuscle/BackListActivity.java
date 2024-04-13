@@ -42,7 +42,7 @@ public class BackListActivity extends AppCompatActivity {
 
         startBtn = findViewById(R.id.startSet);
         mtextview = findViewById(R.id.time);
-        timerManager = new TimerManager(mtextview, startBtn,buttonValue);
+        timerManager = new TimerManager(mtextview, startBtn,buttonValue,BackListActivity.this);
 
         startBtn.setOnClickListener(v -> {
             if(timerManager.isRunning()){

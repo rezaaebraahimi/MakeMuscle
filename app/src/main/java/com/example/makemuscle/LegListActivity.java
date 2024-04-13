@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity; 
+import androidx.appcompat.app.AppCompatActivity;
 public class LegListActivity extends AppCompatActivity {
 
     String buttonValue;
@@ -40,7 +40,7 @@ public class LegListActivity extends AppCompatActivity {
 
         startBtn = findViewById(R.id.startSet);
         mtextview = findViewById(R.id.time);
-        timerManager = new TimerManager(mtextview, startBtn,buttonValue);
+        timerManager = new TimerManager(mtextview, startBtn,buttonValue,LegListActivity.this);
 
         startBtn.setOnClickListener(v -> {
             if(timerManager.isRunning()){
